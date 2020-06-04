@@ -10,7 +10,7 @@
 
 - [Java](#java)
     - [基础](#基础)
-        -  [Java 基础](#Java 基础)
+        -  [Java 基础](#Java基础)
         -  [Spring FremWork](#FremWork)
     - [容器](#容器)
     - [并发](#并发)
