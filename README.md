@@ -1,6 +1,6 @@
--Bat
+Bat
 
-一个二本渣渣进击Bat的过程
+一个渣渣进击Bat的过程
 
 本项目整理一些java程序员的知识点 总结一点自己的经验 总结一些面试中常出现的知识点  以及从网络上收集的一些优秀文章
 
@@ -20,5 +20,5 @@
 ## Java
    ### 基础
    #### Java基础
-   #### [SpringFremWork](doc/java/Spring.md)
+   https://github.com/hailin1994/JavaGuide/blob/master/docs/java/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.md
    
