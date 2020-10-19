@@ -183,7 +183,7 @@ docker run -d --name kibana --link es7:elasticsearch -p 5601:5601 kibana:7.8.0
 
 > 如果需要中文界面在kibana.yml文件中添加 `i18n.locale: "zh-CN"`配置重启即可
 
-![img](.\resource\1.webp)
+![img](./resource/1.webp)
 
 ### 通过kibana的Console来做elasticsearch的crud和相关配置
 
