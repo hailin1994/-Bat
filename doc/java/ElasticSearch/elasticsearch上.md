@@ -183,7 +183,7 @@ docker run -d --name kibana --link es7:elasticsearch -p 5601:5601 kibana:7.8.0
 
 > 如果需要中文界面在kibana.yml文件中添加 `i18n.locale: "zh-CN"`配置重启即可
 
-![img](./图片/1.webp)
+![img](.\resource\1.webp)
 
 ### 通过kibana的Console来做elasticsearch的crud和相关配置
 
@@ -770,7 +770,7 @@ firewall-cmd --zone=public --add-port=9000/tcp --permanent && firewall-cmd --rel
 
 ## 三、Elasticsearch 的分布式集群
 
-![img](./图片/8021450-4b242a534973ca83.webp)
+![img](./resource/8021450-4b242a534973ca83.webp)
 
 ### shard&replica机制
 
@@ -1163,7 +1163,7 @@ bulk request会加载到内存里，如果太大的话，性能反而会下降�
  （3）实际的node上的primary shard处理请求，然后将数据同步到replica node
  （4）coordinating node，如果发现primary node和所有replica node都搞定之后，就返回响应结果给客户端
 
-![img](./图片/8021450-a0688355988022f2.webp)
+![img](./resource/8021450-a0688355988022f2.webp)
 
 ### 写一致性原理以及quorum机制剖析
 
@@ -1226,7 +1226,7 @@ quorum = int( (3 + 1) / 2 ) + 1 = 3
 5. 特殊情况：document如果还在建立索引过程中，可能只有primary shard有，任何一个replica shard都没有，此时可能会导致无法读取到document，
     但是document完成索引建立之后，primary shard和replica shard就都有了
 
-![img](./图片/8021450-ce04bc9bc84bf974.webp)
+![img](./resource/8021450-ce04bc9bc84bf974.webp)
 
 ### bulk api的奇特json格式与底层性能优化关系
 
@@ -1272,7 +1272,7 @@ bulk api奇特的json格式
 
 ### 5.1 search结果解析（search timeout机制说明）
 
-![img](./图片/8021450-96ef4226e32119c1.webp)
+![img](./resource/8021450-96ef4226e32119c1.webp)
 
 
 
@@ -2266,7 +2266,7 @@ doc2的content字段内容: hi, world, how are you
 
 
 
-![img](./图片/8021450-d282e3d00a036bdb.webp)
+![img](./resource/8021450-d282e3d00a036bdb.webp)
 
 正排索引类似如下（对整个文档进行操作）：
 
@@ -2289,7 +2289,7 @@ doc2        tom         30
 2. coordinate node将请求转发到所有shard，每个shard本地搜索，并构建一个本地的priority queue
 3. 各个shard将自己的priority queue返回给coordinate node，并构建一个全局的priority queue
 
-![img](./图片/8021450-c8c85edc50c866fc.webp)
+![img](./resource/8021450-c8c85edc50c866fc.webp)
 
 #### replica shard如何提升搜索吞吐量
 
@@ -2305,7 +2305,7 @@ fetch phbase工作流程
 
 一般搜索，如果不加from和size，就默认搜索前10条，按照_score排序
 
-![img](./图片/8021450-eb26a492d387aa24.webp)
+![img](./resource/8021450-eb26a492d387aa24.webp)
 
 ### 5.25 搜索相关参数梳理以及bouncing results问题解决方案
 
