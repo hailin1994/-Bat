@@ -14,7 +14,7 @@ Bat
     - [并发](#并发)
     - [JVM](#jvm)
     - [其他](#其他)
-- [ElasticSearch] (#ElasticSearch)
+- [ElasticSearch](#ElasticSearch)
 
 ## Java
    ### 基础
