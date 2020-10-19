@@ -18,6 +18,7 @@ Bat
     - [es学习笔记上](#es上)
     - [es学习笔记中](#es中)
     - [es学习笔记下](#es下)
+    - [es面试常见问题](#es 面试常见问题)
 
 ## Java
    ### 基础
@@ -34,5 +35,11 @@ Bat
    #### es下
    https://github.com/hailin1994/-Bat/blob/master/doc/java/ElasticSearch/elasticsearch下.md
 
-   
+  #### es 面试常见问题
+
+https://github.com/hailin1994/-Bat/blob/master/doc/java/ElasticSearch/es%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.md
+
+
+
+
 
