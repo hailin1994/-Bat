@@ -34,7 +34,7 @@ you                      *
 
 #### 基本流程
 
-![img](https:////upload-images.jianshu.io/upload_images/8021450-1a1f90422201d751.png?imageMogr2/auto-orient/strip|imageView2/2/w/577/format/webp)
+![img](.\图片\8021450-1a1f90422201d751.webp)
 
 1. 数据写入buffer
 2. commit point
@@ -77,7 +77,7 @@ PUT /index_demo
 
 #### 最终优化流程
 
-![img](https:////upload-images.jianshu.io/upload_images/8021450-4a6efbc8ecd67710.png?imageMogr2/auto-orient/strip|imageView2/2/w/948/format/webp)
+![img](.\图片\8021450-4a6efbc8ecd67710.webp)
 
 1. 数据写入buffer缓冲和translog日志文件
 2. 每隔一秒钟，buffer中的数据被写入新的segment file，并进入os cache，此时segment被打开并供search使用
@@ -1287,7 +1287,7 @@ GET /forum/_search
 
 
 
-![img](https:////upload-images.jianshu.io/upload_images/8021450-03dd17606b8b3a27.png?imageMogr2/auto-orient/strip|imageView2/2/w/809/format/webp)
+![img](.\图片\8021450-03dd17606b8b3a27.webp)
 
 #### 如何解决该问题？
 
