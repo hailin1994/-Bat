@@ -15,9 +15,9 @@ Bat
     - [JVM](#jvm)
     - [其他](#其他)
 - [ElasticSearch](#ElasticSearch)
-    - [es学习笔记上](#es学习笔记上)
-    - [es学习笔记中](#es学习笔记中)
-    - [es学习笔记下](#es学习笔记下)
+    - [es学习笔记上](#es上)
+    - [es学习笔记中](#es中)
+    - [es学习笔记下](#es下)
 
 ## Java
    ### 基础
@@ -27,7 +27,10 @@ Bat
    
 ## ElasticSearch
    ### es学习笔记
-   ##### 上
+   #### es上
+   #### es中
+   #### es下
+   
    
    
    
