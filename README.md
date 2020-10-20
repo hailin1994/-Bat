@@ -28,14 +28,13 @@ Bat
 
 ## ElasticSearch
    ### es学习笔记
-   #### es上
-   https://github.com/hailin1994/-Bat/blob/master/doc/java/ElasticSearch/elasticsearch上.md
-   #### es中
-   https://github.com/hailin1994/-Bat/blob/master/doc/java/ElasticSearch/elasticsearch中.md
-   #### es下
-   https://github.com/hailin1994/-Bat/blob/master/doc/java/ElasticSearch/elasticsearch下.md
-   #### es面试常见问题
-   https://github.com/hailin1994/-Bat/blob/master/doc/java/ElasticSearch/es%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.md
+-[es学习笔记上](#doc/java/ElasticSearch/elasticsearch上.md)
+
+-[es学习笔记中](##doc/java/ElasticSearch/elasticsearch中.md)
+
+-[es学习笔记下](#doc/java/ElasticSearch/elasticsearch下.md)
+
+-[es面试常见问题](#doc/java/ElasticSearch/es常见问题.md)
 
 
 
