@@ -15,10 +15,6 @@ Bat
     - [JVM](#jvm)
     - [其他](#其他)
 - [ElasticSearch](#ElasticSearch)
-    - [es学习笔记上](#es上)
-    - [es学习笔记中](#es中)
-    - [es学习笔记下](#es下)
-    - [es面试常见问题](#es面试常见问题)
 
 ## Java
    ### 基础
@@ -28,13 +24,13 @@ Bat
 
 ## ElasticSearch
    ### es学习笔记
--[es学习笔记上](#doc/java/ElasticSearch/elasticsearch上.md)
+-[es学习笔记上](doc/java/ElasticSearch/elasticsearch上.md)
 
--[es学习笔记中](##doc/java/ElasticSearch/elasticsearch中.md)
+-[es学习笔记中](doc/java/ElasticSearch/elasticsearch中.md)
 
--[es学习笔记下](#doc/java/ElasticSearch/elasticsearch下.md)
+-[es学习笔记下](doc/java/ElasticSearch/elasticsearch下.md)
 
--[es面试常见问题](#doc/java/ElasticSearch/es常见问题.md)
+-[es面试常见问题](doc/java/ElasticSearch/es常见问题.md)
 
 
 
